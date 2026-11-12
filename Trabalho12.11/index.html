@@ -8,7 +8,6 @@
 </head>
 <body>
     <h1>Cadastro</h1>
-    <p>Faça seu cadastro aqui</p>
     <input type="text" placeholder="Digite seu nome" id="nome">
     <input type="email" placeholder="Digite seu email" id="email">
     <input type="tel" placeholder="Digite seu telefone" id="telefone">
@@ -16,9 +15,9 @@
     <div id="resultado"></div>
 
     <script>
-        const nome = document.getElementsById("nome")
-        const email = document.getElementsById("email")
-        const telefone = document.getElementsById("telefone")
+        const nome = document.getElementById("nome")
+        const email = document.getElementById("email")
+        const telefone = document.getElementById("telefone")
         const btn = document.getElementById("btn")
         const resultado = document.getElementById("resultado")
         btn.addEventListener("click", function(){
