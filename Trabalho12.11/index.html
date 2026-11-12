@@ -9,19 +9,19 @@
 <body>
     <h1>Cadastro</h1>
     <p>Faça seu cadastro aqui</p>
-    <input type="text" placeholder="Digite seu nome" class="nome">
-    <input type="text" placeholder="Digite seu email" class="email">
-    <input type="number" placeholder="Digite seu telefone" class="telefone">
+    <input type="text" placeholder="Digite seu nome" id="nome">
+    <input type="text" placeholder="Digite seu email" id="email">
+    <input type="number" placeholder="Digite seu telefone" id="telefone">
     <button id="btn">Envie seus dados</button>
 
     <script>
-        const nome = document.getElementsByClassName("nome")
-        const email = document.getElementsByClassName("email")
-        const telefone = document.getElementsByClassName("telefone")
+        const nome = document.getElementsById("nome")
+        const email = document.getElementsById("email")
+        const telefone = document.getElementsById("telefone")
         const btn = document.getElementById("btn")
         const resultado = document.getElementById("resultado")
         btn.addEventListener("click", function(){
-            const valorNome = nome
+            const valorNome = nome.value
         })
     </script>
 </body>
