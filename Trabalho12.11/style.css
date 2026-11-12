@@ -1,0 +1,18 @@
+
+body {
+  background-color: whitesmoke;
+  color: darkcyan;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: darkolivegreen;
+  font-size: 28px;
+  text-align: center;
+}
+
+p {
+  line-height: 1.6;
+  font-size: 16px;
+}
