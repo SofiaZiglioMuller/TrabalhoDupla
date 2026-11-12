@@ -1,18 +1,23 @@
-
 body {
-  background-color: whitesmoke;
-  color: darkcyan;
-  margin: 0;
-  padding: 20px;
+    background-color: whitesmoke;
+    color: darkcyan;
+    margin: 0;
+    padding: 20px;
 }
 
 h1 {
-  color: darkolivegreen;
-  font-size: 28px;
-  text-align: center;
+    color: darkolivegreen;
+    font-size: 28px;
+    text-align: center;
 }
 
-input{
-    color: antiquewhite;
+input {
+    color: darkslategray;
     background-color: blanchedalmond;
+}
+
+button {
+    border-radius: 10px;
+    background-color: aquamarine;
+    border: none;
 }
