@@ -22,6 +22,15 @@
         const resultado = document.getElementById("resultado")
         btn.addEventListener("click", function(){
             const valorNome = nome.value
+            const valorEmail = email.value
+            const valorTelefone = telefone.value
+
+        resultado.innerHTML = `
+                <p><strong>Dados enviados:</strong></p>
+                <p>Nome: ${valorNome}</p>
+                <p>E-mail: ${valorEmail}</p>
+                <p>Telefone: ${valorTelefone}</p>
+            `    
         })
     </script>
 </body>
